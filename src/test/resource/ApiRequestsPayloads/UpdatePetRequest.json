@@ -1,0 +1,19 @@
+//COPIED FROM SWAGGER
+{
+  "id": 111,
+  "category": {
+    "id": 0,
+    "name": "string"
+  },
+  "name": "Barney",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "string"
+    }
+  ],
+  "status": "available"
+}
