@@ -25,7 +25,7 @@ public class PetstoreRestAssuredActions {
 		     body(matchesJsonSchema(new File(System.getProperty("user.dir")+ "/src/test/resource/ApiResponseSchemas/CreatePetResponse.json")));
 		
 	}
-	
+	//test
 	public void updatePet() {
     
 		given().
