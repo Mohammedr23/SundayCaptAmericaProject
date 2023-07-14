@@ -1,19 +1,18 @@
 package upskill.ebay.stepDef;
-
-//import io.cucumber.java.en.Then;
-//import io.cucumber.java.en.When;
-import cucumber.api.java.en.Then;
-import cucumber.api.java.en.When;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+//import cucumber.api.java.en.Then;
+//import cucumber.api.java.en.When;
 import upskill.ebay.pageAction.EbaySearchResaultActions;
 
 public class EbaySearchResaultSteps {
 	EbaySearchResaultActions EbaySearchResaultActionsObj = new EbaySearchResaultActions();
 	
-	@Then("^Item list should have only shoes related products$")
-	public void item_list_should_have_only_shoes_related_products() throws Throwable {
+	
+	@Then("Item list should have only shoes related products")
+	public void item_list_should_have_only_shoes_related_products() throws InterruptedException {
 		EbaySearchResaultActionsObj.varifyShoesItems();
 		Thread.sleep(2000);
-;
 	}
 	
 	@When("^Filter by \"([^\"]*)\"$")

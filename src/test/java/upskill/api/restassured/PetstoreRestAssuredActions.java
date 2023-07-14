@@ -6,7 +6,8 @@ import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchema;
 
 import java.io.File;
 public class PetstoreRestAssuredActions {
-	
+	// changes for git
+	// pushing to git
 	public void createPet() {
 		
 		given().
@@ -24,7 +25,7 @@ public class PetstoreRestAssuredActions {
 		     body(matchesJsonSchema(new File(System.getProperty("user.dir")+ "/src/test/resource/ApiResponseSchemas/CreatePetResponse.json")));
 		
 	}
-	
+	//test
 	public void updatePet() {
     
 		given().
