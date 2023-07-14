@@ -1,7 +1,9 @@
 package upskill.ebay.stepDef;
 
-import cucumber.api.java.en.Given;
-import cucumber.api.java.en.When;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.When;
+//import cucumber.api.java.en.Given;
+//import cucumber.api.java.en.When;
 import upskill.api.restassured.PetstoreRestAssuredActions;
 
 public class PetstoreApiSteps {

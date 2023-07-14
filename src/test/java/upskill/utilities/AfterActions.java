@@ -1,10 +1,13 @@
 package upskill.utilities;
 
+import io.cucumber.java.After;
+import io.cucumber.java.Scenario;
+
 //import io.cucumber.java.After;
 //import io.cucumber.java.Scenario;
 
-import cucumber.api.Scenario;
-import cucumber.api.java.After;
+//import cucumber.api.Scenario;
+//import cucumber.api.java.After;
 
 public class AfterActions {
 	TakeScreenshot TakeScreenshotObj = new TakeScreenshot();

@@ -1,9 +1,10 @@
 package upskill.utilities;
 
+import io.cucumber.java.Before;
+import io.cucumber.java.Scenario;
 
-
-import cucumber.api.Scenario;
-import cucumber.api.java.Before;
+//import cucumber.api.Scenario;
+//import cucumber.api.java.Before;
 
 public class BeforeActions {
 	
